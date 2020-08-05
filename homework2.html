@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordpress.com</title>
+</head>
+
+<style>
+    
+    *{
+        padding: 0;
+        margin: 0;
+    }  
+
+    .box1 {
+        background-color: rgb(2, 140, 176);
+        color: white;
+        box-sizing: border-box;
+        width: 100%;
+        height: 600px;
+   
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+   .head2{
+       display: flex;
+      margin: 5px;
+
+   }
+
+    .head2 ul{
+        display: flex;
+        list-style: none;
+        
+    }
+
+    .head2 h3{
+        margin: 3px;
+        font-size: 20px;
+    }
+
+    .head2 li{
+        margin: 5px;
+    }
+
+    .head2 a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .head3{
+        margin: 5px;
+    }
+
+    .head3 ul{
+        display: flex;
+        list-style: none;
+        padding-right: 10px;
+        
+    }
+
+    .head3 li{
+        margin: 5px;
+    }
+
+    .head3 a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .slogan{
+        margin: 200px 0px ;
+        padding: 0px 0px 200px;
+        box-sizing: border-box;
+    }
+
+    .slogan h1{
+        margin-bottom:10px;
+        margin-left: 550px;
+        
+    }
+
+    .slogan p{
+        margin-bottom:30px;
+        margin-left: 300px;
+    }
+
+    .slogan a{
+        display: inline-block;
+        box-sizing: border-box;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 800;
+        margin-left: 685px;
+        background-color: rgb(5,45,84);        
+        width: 150px;
+        height: 40px;
+        padding-top: 12px;
+        padding-left: 25px;
+        border-radius: 6px;
+    }
+
+    .box2{
+        width: 100%;
+        height: 600px;
+        background-color: rgb(255,240,234);
+        display: inline-block;
+    }
+
+    .bigiconbox{
+        width: 600px;
+        height: 100px;
+        display: flex;
+        margin: 100px 160px 0px;
+    }
+
+    .iconbox{
+        width: 60px; 
+        height: 60px;
+        background-color: rgb(255,208,191);
+        border-radius: 100px;
+        margin: 10px;
+    }
+
+    .icon{
+        max-width: 80%;
+        max-height: 80%;
+        padding: 5px 5px;
+    }
+
+    .sectionbox{
+        display: flex;
+        position: relative;
+    }
+
+    .word{
+        width: 440px;
+        margin: 30px 170px ;
+    }
+
+    .word h3{
+        color: rgb(146,73,58);
+        font-size: 24px;
+        line-height: 30px;
+
+    }
+
+    .word p{
+        color: rgb(148, 121, 115);
+        line-height: 30px;　　　          
+    }
+
+    .pic{
+        position: absolute;
+        margin-left:  780px ;
+        
+    }
+
+    .box3{
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 600px ;
+    }
+
+    .bigiconbox2{
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 760px;
+    }
+
+    .word2{
+        margin-top: 220px;
+        margin-left: 800px;
+    }
+
+    .pic2{
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 200px;
+    }
+
+    .box4{
+        display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 900px ;
+        background-color: rgb(20,21,23);
+        padding-top: 30px;
+    }
+
+    .minibox{
+        display: inline-block;
+        width: 700px;
+        box-sizing: border-box;
+    }
+
+    .minibox h3{
+        color: white;
+    }
+
+    .minibox p{
+        color: rgb(149, 154, 161);
+    }
+
+    .blue .icon{
+        background-color: rgb(35,146,246);
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        border-radius: 100px;
+        padding: 12px 10px 0px;
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+
+    .pink .icon{
+        background-color: rgb(2,159,201);
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        border-radius: 100px;
+        padding: 12px 10px 0px;
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    .minibox img{
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .bottombox a{
+        display: inline-block;
+        box-sizing: border-box;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 800;
+        margin-left: 685px;
+        margin-top: 30px;
+        background-color: rgb(36,151,255);        
+        width: 150px;
+        height: 40px;
+        padding-top: 12px;
+        padding-left: 25px;
+        border-radius: 6px;
+    }
+
+.box5{
+    display: inline-block;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 500px ;
+}
+
+.box5 .slogana{
+    box-sizing: border-box;
+    margin: 40px 580px 40px;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.people{
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 120px; 
+    margin-right: 100px;
+    margin-top: 20px;
+    position: relative;
+    
+    
+   
+}
+
+.word5{
+    
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    margin: 40px 10px ;
+    
+}
+
+.people .icon{
+    position: absolute;
+    margin: 40px 360px;
+
+}
+
+.namewww{
+    position: absolute;
+    margin-top: 210px ;
+    margin-left: 330px;
+}
+
+span{
+    font-size: 50px;
+    color: gray;
+}
+
+.name{
+    font-weight: 900;
+}
+
+.www{
+    color: rgb(153, 151, 151);
+}
+
+.box6{
+    position: relative;
+    box-sizing: border-box;
+    height: 1200px;
+    background-color: rgb(29,35,47);
+}
+
+.word6{
+    position: absolute;
+    margin: 80px 270px 0px;
+    width: 310px;
+    height: ;
+    
+}
+
+.word6 h1{
+    color: white;
+}
+
+.word6 p{
+    color: rgb(149, 154, 161);
+}
+
+.freeplan{
+    position: absolute;
+    background-color:  rgb(114, 119, 134);
+    height: 200px;
+    width: 300px;
+    margin: 80px 900px 0px;
+    border-radius: 5px;
+}
+
+.freeplanin{
+    position: absolute;
+    background-color:  rgb(55,60,71);
+    height: 190px ;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    
+}
+
+.freeplanin h3{
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.freeplanin p{
+    color: rgb(149, 154, 161);
+    line-height: 30px;
+    font-size: 12px;
+    
+}
+
+.freeplanin a{
+    display: inline-block;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(213,44,130);
+    margin: 10px 0px;
+    padding: 10px 80px;
+    border-radius: 5px;        
+       
+}
+
+.plan{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 340px;
+    height: 400px;
+    margin: 400px 18px 0px;
+    border-radius: 4px;
+
+}
+
+.plan1{
+    background-color: rgb(181,202,250);
+}
+.plan2{
+    background-color: rgb(224,189,86);
+}
+.plan3{
+    background-color: rgb(227,138,64);
+}
+.plan4{
+    background-color: rgb(170,95,230);
+}
+
+.planin{
+    position: absolute;
+    box-sizing: border-box;
+    width: 340px;
+    height: 390px;
+    margin-top: 10px;
+    background-color: rgb(245,246,246);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.line{
+    width: 300px;
+    height: 1px;
+    background-color: rgb(172, 165, 165);
+    margin: 10px 0px;
+}
+
+.planin h3{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.planin p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.planin a{
+    display: inline-block;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    margin: 30px 20px 30px;
+    padding: 5px 60px;
+    border-radius: 5px;  
+    border: rgb(134, 124, 124) solid 0.5px;
+    
+    font-weight: 800;
+}
+
+.moreplan{
+    position: absolute; ;
+    margin: 100px 0px 0px 690px;
+
+}
+
+.moreplan a{
+   margin-top: 40px;
+   padding: 10px 10px 10px 20px;
+   border: white solid 1px;
+   background-color: rgb(29,35,47);
+   text-decoration: none;
+   color: white;
+   border-radius: 4px;
+}
+
+.planvip{
+   
+   position: relative;
+   height: 400px;
+}
+
+.planvip .line{
+   position: absolute;
+   height: 80px;
+   width: 1px;
+   margin: 240px 0px 0px 560px;
+}
+
+.imgvip{
+   position: absolute;
+   margin: 200px 0px 0px 400px;
+} 
+
+.word7{
+    position: absolute;
+    margin: 245px 0px 0px 600px;
+    
+}
+
+.word7 p{
+    color: rgb(149, 154, 161);
+}
+
+.word7 a{
+    text-decoration: none;
+    color: white;
+}
+
+.imgcom{
+    position: absolute;
+    margin: 300px 0px 0px 580px;
+}
+
+
+
+
+
+.box7{
+    background-color: rgb(29,35,47);
+    height: 400px;
+    width: 100%;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.imgbox{
+    margin-left: 620px;
+}
+
+.box7 .slogan{
+    margin: 0px 0px 0px ;
+    padding: 0px;
+
+}
+
+.box7 .slogan h1{
+    color: white;
+    margin-left: 450px;
+}
+
+.box7 .slogan p{
+    color: rgb(149, 154, 161);
+    margin-top: 10px;
+    margin-left: 465px;
+
+}
+
+.box7 .slogan a{
+    margin-top: 30px;
+    background-color: rgb(35,146,246);
+}
+
+.box8{
+    height: 840px;
+    position: relative;
+    display: inline-block;
+}
+
+.icon8{
+    position: absolute;
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(71,211,71);
+    margin: 160px 0px 30px 720px;
+    padding: 10px 0px  0px 10px;
+    border-radius: 100px;
+
+}
+
+.icon8 img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.box8 .line{
+    width: 1000px;
+    height: 1px;
+    background-color: rgb(172, 165, 165);
+    margin-left: 250px;
+}
+
+
+.box8 h3{
+    display: inline-block;
+    font-size: 30px;
+    margin: 240px 0px 70px 540px;
+}
+
+.question{
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 250px;
+}
+
+.down1{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 800px;
+}
+
+.down2{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 780px;
+}
+.down3{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 780px;
+}
+.down4{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 723px;
+}
+.down5{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 723px;
+}
+.down6{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 760px;
+}
+.down7{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 780px;
+}
+.down8{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 705px;
+}
+
+.box9{
+    height: 60px; 
+    background-color:rgb(20,21,23);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.box9 .foot{
+    position: relative;
+    display: inline-block;
+}
+
+.box9 ul li{
+    /* position: relative; */
+    display: inline-block;
+    margin: 25px 0px 0px 30px ;
+    font-size: 14px;
+}
+
+.box9 a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.lan{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    border: 1px solid white;
+    margin: 23px 0px 19px 0px;
+}
+
+.logo{
+    position: absolute;
+    margin: -35px 0px 0px 1100px;
+}
+
+
+</style>
+
+
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="header">
+              
+               <div class="head2">
+                    <h3> <img src="" alt=""> WordPress.com</h3>
+                    <ul>  
+                        <li>
+                            <a href="">產品</a>
+                        </li>
+                        <li>
+                            <a href="">功能</a>
+                        </li>
+                        <li>
+                            <a href="">資源</a>
+                        </li>
+                        <li>
+                            <a href="">方案與定價</a>
+                        </li>
+                    </ul>
+               </div>
+               <div class="head3">
+                     <ul>
+                        <li>
+                            <a href="">登入</a> 
+                        </li>
+                        <li>
+                            <a href="">跨出第一步</a> 
+                        </li>
+                </ul>
+               </div>
+                
+            </div>    
+            <div class="box1 slogan">
+                    <h1>架好你的網站，幾分鐘就行</h1>
+                    <p>Wordpress.com提供你一切所需，讓你立即著手打造網站。免費託管、擁有自己的網域、世界級的支援團隊，還有更多優質服務。</p>
+                    <a class="bottom" href="">開始建立網站</a>
+            </div>
+            
+
+        </div>
+        <div class="box2">
+            <div class="bigiconbox">
+                <div class="iconbox">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/846/846398.svg" alt="">
+                </div>
+                <div class="iconbox">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/1063/1063196.svg" alt="">
+                </div>
+                <div class="iconbox">
+                    <img class="icon" src="https://image.flaticon.com/icons/svg/777/777205.svg" alt="">
+                </div>
+            </div>
+            <div class="sectionbox">
+               <div class="word">                  
+                   <h3>想架什麼網站，就架什麼網站，大家都做的到。</h3>
+                   <br>
+                   <p>WordPress.com的強大功能和無比彈性，讓每個人都能架出自己想要的網站，從個人網誌、商用網站、作品集到網路商店；你想做什麼，統統沒問題。</p>
+                   <br>
+                   <p>內建多種針對行動裝置自動轉換版面且最佳化的佈景主題，所有訪客都會感到賓至如歸。小到味全家人架設的簡單網站，大到全球跨境的電商平台，你想做什麼，都行。</p>
+                  
+                </div>
+               <div class="pic">
+                <img src="pic2.png" alt="">
+               </div> 
+            </div>
+
+        </div>
+        <div class="box3">
+            <div class="bigiconbox2">
+                <img src="pic4.png" alt="">
+            </div>
+            <div class="sectionbox">
+                <div class="word word2">
+                    <h3>多種方案，滿足需求。</h3>
+                   <br>
+                   <p>不論預算是多少，都能在WordPress.com找到最適合你的方案。即使選擇最平易近人的免費方案，也能享有專業佈景主題，3GB儲存空間、紹群平台支援工具等服務。</p>
+                   <br>
+                   <p>若需要更多功能，還有三種經濟實惠的方案可供選擇：每種方案都提供網域名稱自訂、更大的檔案儲存空間、優先支援服務等功能；部分進階方案更提供版面設計自訂選項、網站獲利工具等，還能自行上傳你享用的WordPress外掛程式與佈景主題。</p>
+                </div>
+                <div class="pic2">
+                    <img src="pic3.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="box4">
+            <div class="minibox blue">
+                <div class="icon">
+                    <img src="https://image.flaticon.com/icons/svg/880/880951.svg" alt="">
+                </div>
+                <div class="word word3">
+                    <h3>多種方案，預算高低都合用</h3>
+                    <br>
+                    <p>無須任何費用即可開始使用，讓你的網站快速上線操作；可升級至不同方案，以享有進階自訂功能、多樣化佈景主題、額外儲存空間以及各式使用工具。</p>
+                </div>
+            </div>
+            <div class="minibox pink">
+                <div class="icon">
+                    <img src="https://image.flaticon.com/icons/svg/2235/2235919.svg" alt="">
+                </div>
+                <div class="word word3">
+                    <h3>寫網誌、做網站、雙效合一</h3>
+                    <br>
+                    <p>可單獨建立網誌、建置完整網站，也可兩者並行。不論你想記錄生活、展現亮眼的個人作品集、或是建立強大的商業網站，完全由你決定。</p>
+                </div>
+            </div>
+            <div class="minibox blue">
+                <div class="icon">
+                    <img src="https://image.flaticon.com/icons/svg/929/929574.svg" alt="">
+                </div>
+                <div class="word word3">
+                    <h3>上傳或嵌入多媒體檔案</h3>
+                    <br>
+                    <p>將圖片托放到文章和葉面中、建立設計師等級的照片圖庫、嵌入音訊、影片、文件等。</p>
+                </div>
+            </div>
+            <div class="minibox pink">
+                <div class="icon">
+                    <img src="https://image.flaticon.com/icons/svg/1250/1250615.svg" alt="">
+                </div>
+                <div class="word word3">
+                    <h3>直覺好用的編輯器</h3>
+                    <br>
+                    <p>我們的編輯器又快又好用，同時支援HTML和Markdown，而且每隔幾秒鐘便會自動儲存編輯進度，萬無一失。</p>
+                </div>
+            </div>
+            <div class="minibox blue">
+                <div class="icon">
+                    <img src="https://image.flaticon.com/icons/svg/839/839896.svg" alt="">
+                </div>
+                <div class="word word3">
+                    <h3>讓你的網誌飛速成長</h3>
+                    <br>
+                    <p>WordPress.com內建Jetpack基本功能，包括網站統計資料、基本SEO功能和社群媒體分享功能。</p> 
+                </div>
+            </div>        
+           <div class="minibox pink">
+                <div class="icon">
+                    <img src="https://image.flaticon.com/icons/svg/864/864731.svg" alt="">
+                </div>
+                <div class="word word3">
+                    <h3>行動裝置及桌面應用程式</h3>
+                    <br>
+                    <p>我們擁有ios、Android、Mac、Windows及Linux系統的行動裝置和桌上型電腦應用程式，讓你隨時隨地都能更新網站內容。</p>
+                </div> 
+            </div>   
+            <div class="bottombox">
+                <a class="bottom" href="">開始建立網站</a>
+            </div>      
+        </div>
+        <div class="box5">
+            <div class="slogana">
+                <h3>WordPress.com人人愛用</h3>
+            </div>
+            <div class="people ">
+                <div class="word word5">
+                    <p style="color: black;">
+                        <span>"</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem soluta aut earum minima autem, voluptatem odio quidem sed, libero pariatur labore rem voluptate facilis provident harum iure maiores. Pariatur, atque.
+                     </p>
+                </div>               
+                <div class="icon">
+                    <img src="people1.png" alt="">
+                </div>
+                <div class="namewww">
+                    <p class="name">Alex Kanda-Olmstead</p>
+                    <p class="www">alexislanda-olmstead.com</p>
+                </div>
+                
+            </div>
+            <div class="people">
+                <div class="word word5">
+                    <p style="color: black;">
+                        <span>"</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem soluta aut earum minima autem, voluptatem odio quidem sed, libero pariatur labore rem voluptate facilis provident harum iure maiores. Pariatur, atque.
+                     </p>
+                </div>  
+                <div class="icon">
+                    <img src="people2.png" alt="">
+                </div>
+                <div class="namewww">
+                    <p class="name">Quintin Lake</p>
+                    <p class="www">theperimeter.uk</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="box6">
+            <div class="word word6">
+                <h1>從免費方案開始 <br> 更有4種方案伴你一路成長。</h1>
+                <p>我們提供與眾不同的服務選項。你可以依照現有的預算，選擇符合當下需求的方案，但保留成長所需的彈性空間。小自個人網誌，小型網路商店，大盜架設跨國公司官方網站，都能找到合適的方案</p>
+            </div>
+            <div class="freeplan">
+                <div class="freeplanin">
+                    <h3>免費方案</h3>
+                    <p>入門者的首選</p>
+                    <a href="">免費開始試用</a>
+                    <p>幾分鐘內即可建立網站，而且美觀大方。</p>
+                </div>
+            </div>           
+            <div class="plan plan1">
+                <div class="planin">
+                    <h3>個人方案</h3>
+                    <p>個人使用的最後方案</p>  
+                    <div class="line"></div>                 
+                    <h3>$130</h3>
+                    <p>按月計費，每年結帳一次</p>
+                    <a href="">選擇「個人方案」</a>
+                    <p>提供自訂網域、24小時全年無休支援服務，讓你的網站更加與眾不同。</p>
+                </div>
+            </div>
+            <div class="plan plan2">
+                <div class="planin">
+                    <h3>進階</h3>
+                    <p>最適合自由工作者的方案</p>
+                    <div class="line"></div>
+                    <h3>$240</h3>
+                    <p>按月計費，每年結帳一次</p>
+                    <a style="background-color: rgb(213,44,130) ; color: white;" href="">選擇「進階方案」</a>
+                    <p>利用進階設計工具、自訂Css以及Google Analytics支援、打造獨一無二的網站。</p>
+                </div>
+            </div>
+            <div class="plan plan3">
+                <div class="planin">
+                    <h3>商用版方案</h3>
+                    <p>小型企業最佳選擇</p>
+                    <div class="line"></div>
+                    <h3>$799</h3>
+                    <p>按月計費，每年結帳一次</p>
+                    <a style="padding: 5px 50px;" href="">選擇「商用版」方案</a>
+                    <p>多種外掛程式和佈景主題任你選用、200GB儲存空間及及時支援，讓你的事業如虎添翼。</p>
+                </div>
+            </div>
+            <div class="plan plan4">
+                <div class="planin">
+                    <h3>電子商務</h3>
+                    <p>網路開店的最佳選擇</p>
+                    <div class="line"></div>
+                    <h3>$1438</h3>
+                    <p>按月計費，每年結帳一次</p>
+                    <a style="padding: 5px 45px;" href="">選擇「電子商務」方案</a>
+                    <p>提供靈活、強大的平台功能，與你的網路商店一同成長，業績蒸蒸日上。</p>
+                </div>
+                
+            </div>     
+            <div class="moreplan">
+                <a href="">比較方案內容 ></a>
+            </div>   
+            <div class="planvip">
+                <div class="imgvip">
+                    <img src="vip.png" alt="">
+                </div>
+                <div class="line"></div>
+                <div class="word word7">
+                    <p>Wordpress VIP企業版解決方案，專為各種企業應用設計，不但功能強大，更能滿足各種不同大規模應用需求。 <a href=""> 深入了解 ></a></p>
+                </div>
+                <div class="imgcom">
+                    <img src="company.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box7">
+            <div class="box7 slogan">
+                <div class="imgbox">
+                    <img src="mark.png" alt="">
+                </div>
+                <h1>你的網站，就該架在全球最受歡迎的平台上。</h1>
+                <p>全球有37% 網站使用Wordpress架設，小自新手部落客；大至全球知名品牌，無所不包。</p>
+                <a class="bottom" href="">開始建立網站</a>
+            </div>
+        </div>
+        <div class="box8">
+            <div class="icon8">
+                <img src="https://image.flaticon.com/icons/svg/892/892228.svg" alt="">
+            </div>
+            <div class="title">
+                <h3>儘管提出問題，我們有問必答！</h3>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>我如何支付方案費用？</p>
+            </div>
+            <div class="down1">
+                <p>ˇ</p>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>我的方案會自動續約嗎？</p>
+            </div>
+            <div class="down2">
+                <p>ˇ</p>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>我可以取消我的方案嗎？</p>
+            </div>
+            <div class="down3">
+                <p>ˇ</p>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>能夠擁有新的電子郵件帳號嗎？</p>
+            </div>
+            <div class="down4">
+                <p>ˇ</p>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>我可以建立其他語言的網誌嗎？</p>
+            </div>
+            <div class="down5">
+                <p>ˇ</p>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>我可以透過網站來獲利嗎？</p>
+            </div>
+            <div class="down6">
+                <p>ˇ</p>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>甚麼是進階版佈景主題？</p>
+            </div>
+            <div class="down7">
+                <p>ˇ</p>
+            </div>
+            <div class="line"></div>
+            <div class="question">
+                <p>可以從別的服務匯入原有內容嗎？</p>
+            </div>
+            <div class="down8">
+                <p>ˇ</p>
+            </div>
+        </div>
+        <div class="box9">
+            <div class="foot">
+
+                <ul>
+                    <li>
+                        <a href="">佈景主題</a>
+                    </li>
+                    <li>
+                        <a href="">功能</a>
+                    </li>
+                    <li>
+                        <a href="">網誌</a>
+                    </li>
+                    <li>
+                        <a href="">網站統計</a>
+                    </li>
+                    <li>
+                        <a href="">VIP</a>
+                    </li>
+                    <li>
+                        <a href="">使用規範</a>
+                    </li>
+                    <li>
+                        <a href="">隱私權保護政策</a>
+                    </li>
+                    <li>
+                        <a href="">語言：</a>
+                    </li>
+                </ul>    
+            </div>
+            <div class="lan">
+                <p>zh-TW</p>
+            </div>    
+           
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
